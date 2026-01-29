@@ -1,0 +1,66 @@
+[
+  {
+    "name" : "valid login",
+    "username" : "admin",
+    "password" : "password123"
+  },
+  {
+    "name" : "invalid login",
+    "username" : "admin",
+    "password" : "passwrord"
+  }, 
+  {
+    "name": "Verify To Do column and tags for Implement user authentication task",
+    "username": "admin",
+    "password": "password123",
+    "application": "Web Application",
+    "taskName": "Implement user authentication",
+    "column": "To Do",
+    "expectedTags": ["Feature", "High Priority"]
+  },
+  {
+    "name": "Verify To Do column and tags for Fix navigation bug task",
+    "username": "admin",
+    "password": "password123",
+    "application": "Web Application",
+    "taskName": "Fix navigation bug",
+    "column": "To Do",
+    "expectedTags": ["Bug"]
+  },
+  {
+    "name": "Verify To Do column and tags for Design system updates task",
+    "username": "admin",
+    "password": "password123",
+    "application": "Web Application",
+    "taskName": "Design system updates",
+    "column": "In Progress",
+    "expectedTags": ["Design"]
+  },
+  {
+    "name": "Verify To Do column and tags for Push notification system task",
+    "username": "admin",
+    "password": "password123",
+    "application": "Mobile Application",
+    "taskName": "Push notification system",
+    "column": "To Do",
+    "expectedTags": ["Feature"]
+  },
+  {
+    "name": "Verify To Do column and tagsfor Offline mode task",
+    "username": "admin",
+    "password": "password123",
+    "application": "Mobile Application",
+    "taskName": "Offline mode",
+    "column": "In Progress",
+    "expectedTags": ["Feature", "High Priority"]
+  },
+  {
+    "name": "Verify To Do column and tags for App icon design task",
+    "username": "admin",
+    "password": "password123",
+    "application": "Mobile Application",
+    "taskName": "App icon design",
+    "column": "Done",
+    "expectedTags": ["Design"]
+  }    
+]
